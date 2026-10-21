@@ -33,7 +33,7 @@ local CONFIG = {
     Branch = "main",
     Folder = "Images",
 
-    CacheFolder = "ImageLib",
+    CacheFolder = "Lucide-Cache",
     IndexTTL = 6 * 60 * 60, -- seconds before the repo file list is re-fetched
 
     Extensions = { png = true, jpg = true, jpeg = true },
