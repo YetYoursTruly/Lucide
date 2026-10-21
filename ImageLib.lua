@@ -357,6 +357,7 @@ local function resolve(name)
     -- No index available: guess the direct path.
     local guess = string.gsub(name, "\\", "/")
     guess = string.gsub(guess, "^/+", "")
+    guess = string.lower(guess)
 
     local guessExt = string.match(string.lower(guess), "%.(%w+)$")
 
